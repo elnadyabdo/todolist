@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
 
             $table->string('name');
-            $table->string('title');
+            
             $table->string('email')->unique();
 
             $table->boolean('status')->default(true);
